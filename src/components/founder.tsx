@@ -37,7 +37,7 @@ export default function Founder() {
               <div className="relative aspect-square bg-linear-to-br from-primary/10 to-accent/10 rounded-2xl overflow-hidden border border-primary/30">
                 <Image
                   src={founderImage}
-                  alt="Himanshu Sekhar Parida - Founder & CEO of Smartnex Technologies"
+                  alt="Himansu Sekhar Parida - Founder & CEO of Smartnex Technologies"
                   // width={500}
                   // height={500}
                   className="w-full h-full object-cover"
@@ -51,7 +51,7 @@ export default function Founder() {
           <div className={`md:col-span-3 space-y-8 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
             <div>
               <h2 className="text-4xl md:text-5xl font-bold bg-linear-to-r from-foreground via-primary to-cyan-400 bg-clip-text text-transparent mb-3">
-                Himanshu Sekhar Parida
+                Himansu Sekhar Parida
               </h2>
               <p className="text-lg bg-linear-to-r from-primary to-cyan-400 bg-clip-text text-transparent font-semibold flex items-center gap-2">
                 <Zap size={18} /> Founder & CEO, Smartnex Technologies
@@ -59,7 +59,7 @@ export default function Founder() {
             </div>
 
             <p className="text-lg text-muted-foreground leading-relaxed">
-              With a vision to democratize technology and make enterprise solutions accessible to businesses of all sizes, Himanshu founded Smartnex Technologies. His mission is to bridge the gap between innovation and affordability, transforming industries through cutting-edge software.
+              With a vision to democratize technology and make enterprise solutions accessible to businesses of all sizes, Himansu founded Smartnex Technologies. His mission is to bridge the gap between innovation and affordability, transforming industries through cutting-edge software.
             </p>
 
             <div className="space-y-4">

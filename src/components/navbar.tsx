@@ -2,7 +2,9 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Menu, X } from 'lucide-react'
+import siteLogo from '@/assets/images/logo.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,6 +15,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold text-primary">
+          <Image src={siteLogo} alt="Smartnex Logo" className="inline h-8 w-8 mr-2" />
             Smartnex
           </Link>
 

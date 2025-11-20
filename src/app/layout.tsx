@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Smartnex Technologies | Healthcare, Software & Attendance Solutions',
   description: 'Smartnex Technologies offers innovative healthcare middleware platforms, enterprise software solutions (HRMS, Procurement), and AI-powered attendance management systems with customization and support.',
   keywords: 'healthcare solutions, HRMS, attendance management, AI face recognition, software development, procurement solutions, India tech company',
-  authors: [{ name: 'Himanshu Sekhar Parida', url: 'https://in.linkedin.com/company/smartnex-technologies' }],
+  authors: [{ name: 'Himansu Sekhar Parida', url: 'https://in.linkedin.com/company/smartnex-technologies' }],
   generator: 'v0.app',
   creator: 'Smartnex Technologies',
   publisher: 'Smartnex Technologies',
@@ -24,7 +24,8 @@ export const metadata: Metadata = {
     description: 'Innovative tech solutions for healthcare, enterprise software, and AI-powered attendance management.',
     images: [
       {
-        url: 'https://smartnex.tech/og-image.jpg',
+        url: '/og-image.jpg',
+        secureUrl: '/og-image.jpg',
         width: 1200,
         height: 630,
         alt: 'Smartnex Technologies',
@@ -85,7 +86,7 @@ export default function RootLayout({
               description: 'Innovative tech solutions for healthcare, enterprise software, and AI-powered attendance management.',
               founder: {
                 '@type': 'Person',
-                name: 'Himanshu Sekhar Parida',
+                name: 'Himansu Sekhar Parida',
               },
               sameAs: [
                 'https://in.linkedin.com/company/smartnex-technologies',

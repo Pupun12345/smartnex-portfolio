@@ -51,7 +51,7 @@ export default function AboutContent() {
               </div>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Himanshu Sekhar Parida founded Smartnex Technologies with a clear vision: to democratize enterprise software and make cutting-edge solutions accessible to businesses of all sizes.
+                Himansu Sekhar Parida founded Smartnex Technologies with a clear vision: to democratize enterprise software and make cutting-edge solutions accessible to businesses of all sizes.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -66,7 +66,7 @@ export default function AboutContent() {
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-linear-to-r from-primary to-accent text-primary-foreground rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition transform hover:scale-105"
                 >
-                  Connect with Himanshu
+                  Connect with Himansu
                   <span>→</span>
                 </Link>
               </div>
@@ -77,7 +77,7 @@ export default function AboutContent() {
               <div className="relative rounded-2xl overflow-hidden border-2 border-primary/50 group-hover:border-accent/50 transition">
                 <Image
                   src={founderImage}
-                  alt="Himanshu Sekhar Parida - Founder & CEO of Smartnex Technologies"
+                  alt="Himansu Sekhar Parida - Founder & CEO of Smartnex Technologies"
                   width={600}
                   height={600}
                   className="w-full h-auto object-cover"
