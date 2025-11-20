@@ -23,7 +23,7 @@ export default function Terms() {
             Terms of Use
           </h1>
           <p className="mt-3 text-sm italic">
-            **Effective Date:** [Insert Date]
+            **Effective Date:** June 20, 2025
           </p>
         </header>
 
