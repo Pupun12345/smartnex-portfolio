@@ -1,6 +1,6 @@
 import { NextResponse, NextRequest } from "next/server";
 import z from "zod";
-import { sendContactEmail } from "../../../../email/sendContactEmail";
+import { sendContactEmail } from "../../../email/sendContactEmail";
 const bodySchema = z.object({
   name: z
     .string()

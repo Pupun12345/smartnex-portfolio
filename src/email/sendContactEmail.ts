@@ -1,10 +1,12 @@
 import nodemailer from "nodemailer";
 import ejs from "ejs";
 import { fileURLToPath } from "url";
-import { dirname } from "path";
+import path, { dirname } from "path";
 
 // const __filename = fileURLToPath(import.meta.url);
-const __dirname = process.cwd() + "/email";
+const __dirname = process.cwd();
+console.log(__dirname)
+
 console.log(__dirname)
 
 const transporter = nodemailer.createTransport({
@@ -23,11 +25,19 @@ export async function sendContactEmail(
   message: string,
   company?: string
 ) {
+
+   const templatePath = path.join(
+    process.cwd(),
+    "src",
+    "email",
+    "templates",
+    "sendContactEmail.template.html"
+  );
   const mailOption = {
     from: process.env.GMAIL_ADDRESS,
     to: "contact@smartnex.tech",
     subject: "Portfolio Email",
-    html: await ejs.renderFile(__dirname + "/templates/sendContactEmail.template.html", {
+    html: await ejs.renderFile( templatePath, {
       email,
       name,
       subject,
