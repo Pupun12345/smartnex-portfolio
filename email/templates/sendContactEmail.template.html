@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OTP Verification</title>
+  </head>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+    body {
+      font-family: "Poppins", sans-serif;
+    }
+    .header {
+      background-color: #ed29f0;
+      padding: 10px 20px;
+      text-align: center;
+    }
+    .header h1 {
+      color: white;
+      text-align: center;
+    }
+    .emailBodyContainer {
+      padding: 30px 10px;
+      background-color: #ffd4d2;
+    }
+    .warning p {
+      margin-bottom: 20px;
+    }
+    .infoContainer {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    .footer {
+      background-color: #ed29f0;
+      padding: 10px 20px;
+      color: white;
+      text-align: center;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Contact Email</h1>
+      </div>
+      <div class="emailBodyContainer">
+        <div class="warning">
+          <p>Someone Tried to smartnex from the smartnex portfolio</p>
+          <p>Please fins the below Information</p>
+        </div>
+        <div class="infoContainer">
+          <p>Name: <%= name %></p>
+          <p>Email: <%= email %></p>
+          <p>Phone Number: <%= phone %></p>
+          <p>Company: <%= company %></p>
+          <p>Subject: <%= subject %></p>
+          <p>Message: <%= message %></p>
+        </div>
+      </div>
+      <div class="footer">This template is not made by girl.</div>
+    </div>
+  </body>
+</html>

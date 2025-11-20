@@ -12,7 +12,7 @@ export default function Contact() {
     email: '',
     phone: '',
     company: '',
-    service: '',
+    subject: '',
     message: '',
   })
 
@@ -27,13 +27,39 @@ export default function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
-    
+
+    //  console log form data
+    console.log("submitting form data")
+      console.log('Submitting form data:', formData)
+
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000))
-      setSubmitStatus('success')
-      setFormData({ name: '', email: '', phone: '', company: '', service: '', message: '' })
-      setTimeout(() => setSubmitStatus('idle'), 3000)
+      const response = await fetch('/api/contactFormSubmit', {
+        method: 'POST',
+        body: JSON.stringify(formData),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+
+      const res = await response.json()
+      console.log('Response:', res)
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        setFormData({ name: '', email: '', phone: '', company: '', subject: '', message: '' })
+        // setTimeout(() => setSubmitStatus('idle'), 3000)
+      } else {
+        // handle structured validation errors if present
+        if (res && typeof res.message === 'object' && Array.isArray(res.message.issues)) {
+          console.error('Validation issues:', res.message.issues)
+        } else {
+          console.error('Submission error:', res?.message ?? 'Unknown error')
+        }
+        setSubmitStatus('error')
+        // setTimeout(() => setSubmitStatus('idle'), 3000)
+      }
     } catch (error) {
+      console.error('Submit failed:', error)
       setSubmitStatus('error')
       setTimeout(() => setSubmitStatus('idle'), 3000)
     } finally {
@@ -266,8 +292,8 @@ export default function Contact() {
                     </label>
                     <select
                       id="service"
-                      name="service"
-                      value={formData.service}
+                      name="subject"
+                      value={formData.subject}
                       onChange={handleChange}
                       required
                       className="w-full px-4 py-3 bg-background border border-border rounded-lg text-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 focus:border-primary transition"
