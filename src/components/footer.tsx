@@ -21,6 +21,7 @@ export default function Footer() {
               <li><Link href="/#services" className="hover:text-primary transition">Healthcare Solutions</Link></li>
               <li><Link href="/#services" className="hover:text-primary transition">Software Solutions</Link></li>
               <li><Link href="/#services" className="hover:text-primary transition">Attendance System</Link></li>
+              <li><Link href="/services/manpower" className="hover:text-primary transition">Manpower Solutions</Link></li>
             </ul>
           </div>
 
