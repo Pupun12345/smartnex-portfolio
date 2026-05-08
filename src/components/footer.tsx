@@ -10,7 +10,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-foreground mb-4">Smartnex</h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
-              Innovative tech solutions for healthcare, enterprise software, and AI-powered attendance management.
+              Innovative tech solutions for healthcare, enterprise software, AI-powered attendance management, and manpower services.
             </p>
           </div>
 
