@@ -108,7 +108,7 @@ export default function Hero() {
           className="text-lg md:text-xl text-muted-foreground text-balance leading-relaxed max-w-3xl mx-auto animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          Healthcare integration platforms, intelligent software solutions, and
+          Smart manpower hiring solutions for construction and vendor networks.Healthcare integration platforms, intelligent software solutions, and
           AI-powered attendance systems. Smartnex Technologies empowers
           enterprises with cutting-edge technology designed for scale.
         </p>

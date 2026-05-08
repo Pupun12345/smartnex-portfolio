@@ -1,6 +1,6 @@
 'use client'
 
-import { Heart, Hospital, Users, Shield, Zap, Lock, Cog, Globe, BarChart3, Eye, Clock, TrendingUp, Palette, Headphones, Smartphone, MapPin, Camera, FileText, Type as type, type LucideIcon } from 'lucide-react'
+import { Heart, Hospital, Users, Shield, Zap, Lock, Cog, Globe, BarChart3, BarChart2, Eye, Clock, TrendingUp, Palette, Headphones, Smartphone, MapPin, Camera, FileText, HardHat, ClipboardList, Briefcase, IndianRupee, ShieldCheck, Bell, type LucideIcon } from 'lucide-react'
 
 // Map icon names to components
 const iconMap: Record<string, LucideIcon> = {
@@ -13,6 +13,7 @@ const iconMap: Record<string, LucideIcon> = {
   'Cog': Cog,
   'Globe': Globe,
   'BarChart3': BarChart3,
+  'BarChart2': BarChart2,
   'Eye': Eye,
   'Clock': Clock,
   'TrendingUp': TrendingUp,
@@ -22,6 +23,12 @@ const iconMap: Record<string, LucideIcon> = {
   'MapPin': MapPin,
   'Camera': Camera,
   'FileText': FileText,
+  'HardHat': HardHat,
+  'ClipboardList': ClipboardList,
+  'Briefcase': Briefcase,
+  'IndianRupee': IndianRupee,
+  'ShieldCheck': ShieldCheck,
+  'Bell': Bell,
 }
 
 interface Feature {

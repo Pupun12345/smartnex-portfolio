@@ -35,8 +35,11 @@ export default function Navbar() {
                 <Link href="/services/software" className="block px-4 py-3 text-foreground hover:text-primary transition border-b border-border">
                   Software Solutions
                 </Link>
-                <Link href="/services/attendance" className="block px-4 py-3 text-foreground hover:text-primary transition">
+                <Link href="/services/attendance" className="block px-4 py-3 text-foreground hover:text-primary transition border-b border-border">
                   Attendance Management
+                </Link>
+                <Link href="/services/manpower" className="block px-4 py-3 text-foreground hover:text-primary transition">
+                  Manpower Management
                 </Link>
               </div>
             </div>
@@ -72,6 +75,9 @@ export default function Navbar() {
             </Link>
             <Link href="/services/attendance" className="block text-foreground hover:text-primary transition py-2">
               Attendance Management
+            </Link>
+            <Link href="/services/manpower" className="block text-foreground hover:text-primary transition py-2">
+              Manpower Management
             </Link>
             <Link href="/about" className="block text-foreground hover:text-primary transition py-2">
               About

@@ -1,6 +1,6 @@
 'use client'
 
-import { Heart, Cog, Eye, ArrowRight } from 'lucide-react'
+import { Heart, Cog, Eye, HardHat, ArrowRight } from 'lucide-react'
 import ServiceCard from './service-card'
 import { useEffect, useState } from 'react'
 
@@ -50,6 +50,22 @@ const services = [
     status: '',
     color: 'from-purple-500/20 to-indigo-500/20',
     link: '/services/attendance'
+  },
+  {
+    icon: HardHat,
+    title: 'SiteLink — Manpower Hiring',
+    description: "India's fastest manpower hiring platform — verified workers delivered to your construction site within 24 hours.",
+    features: [
+      '24-Hour Hiring Guarantee',
+      '48-Hour Replacement',
+      'ID-Verified Workers',
+      'Mobile OTP Registration',
+      'Request-Based System',
+      'Admin-Approved Profiles'
+    ],
+    status: 'Under Development',
+    color: 'from-orange-500/20 to-yellow-500/20',
+    link: '/services/manpower'
   }
 ]
 
@@ -84,7 +100,7 @@ export default function Services() {
         </div>
 
         {/* Services Grid */}
-        <div className="grid md:grid-cols-3 gap-8 mb-20">
+        <div className="grid md:grid-cols-4 gap-8 mb-20">
           {services.map((service, index) => (
             <div
               key={index}
