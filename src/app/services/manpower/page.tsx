@@ -5,11 +5,11 @@ import { ServiceHero } from '@/components/service-hero'
 import Link from 'next/link'
 
 export const metadata: Metadata = {
-  title: 'SiteLink — India\'s Fastest Manpower Hiring Platform | Smartnex',
-  description: 'SiteLink connects verified construction workers with vendors. Confirmed manpower in 24 hours, replacements in 48 hours. Built for India\'s construction industry.',
-  keywords: 'SiteLink, construction manpower, verified workers, manpower hiring, construction labor India, vendor manpower, worker verification',
+  title: 'Sitelink — India\'s Fastest Manpower Hiring Platform | Smartnex',
+  description: 'Sitelink connects verified construction workers with vendors. Confirmed manpower in 24 hours, replacements in 48 hours. Built for India\'s construction industry.',
+  keywords: 'Sitelink, construction manpower, verified workers, manpower hiring, construction labor India, vendor manpower, worker verification',
   openGraph: {
-    title: 'SiteLink — India\'s Fastest Manpower Hiring Platform',
+    title: 'Sitelink — India\'s Fastest Manpower Hiring Platform',
     description: 'Verified workers. 24-hour hiring. 48-hour replacement. Built for India\'s construction industry.',
     url: 'https://smartnex.tech/services/manpower',
   },
@@ -22,8 +22,8 @@ export default function ManpowerPage() {
 
       <ServiceHero
         title="India's Fastest Manpower Hiring Platform"
-        subtitle="SiteLink — Coming Soon"
-        description="SiteLink connects verified construction workers with vendors and construction companies — delivering confirmed manpower within 24 hours and replacements within 48 hours."
+        subtitle="Available Now"
+        description="Sitelink connects verified construction workers with vendors and construction companies — delivering confirmed manpower within 24 hours and replacements within 48 hours."
         color="purple"
       />
 
@@ -36,10 +36,10 @@ export default function ManpowerPage() {
                 A Platform Built Around <span className="text-primary">One Promise</span>
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                SiteLink is a request-based manpower hiring system. Vendors post their requirements — role, quantity, location, and duration — and our admin team matches them with verified workers from our database, confirming deployment within 24 hours.
+                Sitelink is a request-based manpower hiring system. Vendors post their requirements — role, quantity, location, and duration — and our admin team matches them with verified workers from our database, confirming deployment within 24 hours.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Every worker on SiteLink is ID-verified, skill-checked, and admin-approved before being added to our active pool — so vendors always get reliable, trusted manpower.
+                Every worker on Sitelink is ID-verified, skill-checked, and admin-approved before being added to our active pool — so vendors always get reliable, trusted manpower.
               </p>
               <ul className="space-y-3">
                 {[
@@ -116,9 +116,9 @@ export default function ManpowerPage() {
         <div className="max-w-4xl mx-auto space-y-10">
           <div className="text-center space-y-4">
             <span className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold border border-primary/20">The Solution</span>
-            <h2 className="text-4xl font-bold text-foreground py-4">SiteLink Changes Everything</h2>
+            <h2 className="text-4xl font-bold text-foreground py-4">Sitelink Changes Everything</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              SiteLink is a mobile-first platform that digitizes the entire manpower hiring process — from worker registration and verification to vendor requests and admin matching.
+              Sitelink is a mobile-first platform that digitizes the entire manpower hiring process — from worker registration and verification to vendor requests and admin matching.
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto">
@@ -156,7 +156,7 @@ export default function ManpowerPage() {
                   'Login with mobile OTP',
                   'Select role, quantity, location & duration',
                   'Submit manpower request',
-                  'SiteLink matches verified workers from database',
+                  'Sitelink matches verified workers from database',
                   'Receive confirmed workers within 24 hours',
                   'Request replacement within 48 hrs if needed',
                 ].map((step, i) => (
@@ -201,7 +201,7 @@ export default function ManpowerPage() {
         <div className="max-w-4xl mx-auto space-y-12">
           <div className="text-center space-y-4">
             <span className="px-4 py-1 rounded-full bg-primary/10 text-primary text-sm font-semibold border border-primary/20">Vision & Mission</span>
-            <h2 className="text-4xl font-bold text-foreground py-4">Why We Built SiteLink</h2>
+            <h2 className="text-4xl font-bold text-foreground py-4">Why We Built Sitelink</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               A platform born from the real frustrations of India's construction industry — built to bring speed, trust, and dignity to every worker and vendor.
             </p>

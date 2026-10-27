@@ -63,7 +63,7 @@ const services = [
       'Request-Based System',
       'Admin-Approved Profiles'
     ],
-    status: 'Under Development',
+    status: '',
     color: 'from-orange-500/20 to-yellow-500/20',
     link: '/services/manpower'
   }
